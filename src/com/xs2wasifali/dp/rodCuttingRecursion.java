@@ -12,7 +12,7 @@ public class rodCuttingRecursion {
             max_val = Math
                     .max(max_val,p[i]+rodCut(p,n-i-1));
         }
-        return 0;
+        return max_val;
     }
 
     public static void main(String[] args){
